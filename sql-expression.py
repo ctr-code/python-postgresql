@@ -10,7 +10,7 @@ meta = MetaData()
 artist_table = Table(
     "artist", meta,
     Column("artist_id", Integer, primary_key=True),
-    Column("name", String,)
+    Column("name", String)
 )
 
 album_table = Table(
